@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-manrope: "Manrope", sans-serif;
+  --font-dm-sans: "DM Sans", sans-serif;
+  --font-instrument-serif: "Instrument Serif", serif;
+
+  --color-primary: #fafafa;
+
+  --color-secondary: #7a1f1f;
+  --color-accent1: #e0a800;
+  --color-accent2: #1f5f3a;
+
+  --color-text: #111111;
+}
