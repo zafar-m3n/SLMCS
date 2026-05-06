@@ -8,31 +8,31 @@ const avenues = [
   {
     title: "Community Service",
     description:
-      "Working through collaboration, service, and hands-on volunteering to uplift communities from the ground up.",
+      "Building meaningful relationships with communities through collaboration, hands-on service, and projects where members contribute their time, skills, and effort.",
     icon: "mdi:hand-heart-outline",
   },
   {
-    title: "Co-existence",
+    title: "Co-existence & Culture",
     description:
-      "Promoting understanding, cultural respect, and unity through initiatives rooted in Humanity Beyond Religion.",
+      "Promoting unity, cultural understanding, dialogue, and harmony through initiatives rooted in Humanity Beyond Religion.",
     icon: "mdi:account-group-outline",
   },
   {
     title: "Member Development",
     description:
-      "Helping members grow through team-building, workshops, mentorship, spiritual reflection, and shared learning.",
+      "Keeping members engaged, connected, and growing through team-building, training, mentorship, personal development, and spiritual programmes.",
     icon: "mdi:account-star-outline",
   },
   {
     title: "Media & PR",
     description:
-      "Creating thoughtful content that educates, engages, and represents the Youth Wing as a trusted voice for unity.",
+      "Creating thoughtful digital content, long-form conversations, short-form media, and public-facing storytelling for education, engagement, and unity.",
     icon: "mdi:bullhorn-outline",
   },
   {
     title: "Fundraising",
     description:
-      "Supporting the sustainability of initiatives through ethical, creative, and community-driven fundraising.",
+      "Supporting the sustainability of Youth Wing initiatives through creative, ethical, and community-driven fundraising efforts.",
     icon: "mdi:charity",
   },
 ];
@@ -41,19 +41,19 @@ const communityProjects = [
   {
     title: "Orphan Care",
     description:
-      "A long-term initiative supporting over 100 orphaned children through joyful activities, care, emotional understanding, mentorship, and future life-skills programmes.",
+      "A long-term initiative supporting over 100 orphaned children by understanding their emotional, social, and intellectual needs. Phase 1 included a joyful carnival in collaboration with Soup Kitchen, while future phases will focus on workshops, mentorship, confidence-building, and life-skills development.",
     icon: "mdi:human-male-child",
   },
   {
     title: "Revive",
     description:
-      "A refurbishment-based project focused on restoring neglected schools, elderly homes, and community spaces through cleaning, repairing, painting, and rebuilding.",
+      "A refurbishment-based community project restoring neglected and under-resourced spaces such as schools, elderly homes, and community centers through painting, repairing, cleaning, and rebuilding.",
     icon: "mdi:home-repair-outline",
   },
   {
     title: "Flood Relief",
     description:
-      "A relief initiative supporting families affected by floods through dry ration packs, water, cleaning supplies, mattresses, pillows, clothing, and long-term recovery planning.",
+      "An urgent relief initiative supporting individuals and families affected by the Ditwah floods through dry ration packs, water bottles, cleaning supplies, mattresses, pillows, clothing, and long-term recovery planning. The project raised over LKR 4.5 million through member dedication and community generosity.",
     icon: "mdi:home-flood",
   },
 ];
@@ -62,25 +62,25 @@ const coexistenceProjects = [
   {
     title: "Bridges of Faith",
     description:
-      "A Masjid Open Day planned at Jawatte Jummah Masjid, featuring guided tours, a kids’ area, and stalls showcasing Islamic clothing, art, and food.",
+      "A Masjid Open Day scheduled for January 2026 at Jawatte Jummah Masjid, featuring guided masjid tours, a dedicated kids’ area, and stalls showcasing Islamic clothing, art, and food.",
     icon: "mdi:mosque-outline",
   },
   {
     title: "Nujoom Night",
     description:
-      "A networking and support gathering for young reverts in Sri Lanka, including a Buddy System to guide participants ahead of Ramadan.",
+      "A networking and support gathering for young reverts in Sri Lanka, scheduled for February 2026 ahead of Ramadan, with a Buddy System to offer guidance, friendship, and support.",
     icon: "mdi:star-crescent",
   },
   {
     title: "Know Your Neighbour",
     description:
-      "A series of illustrated books answering common questions about Sri Lanka’s Muslim, Sinhalese, Tamil, and Burgher communities.",
+      "A four-part illustrated book series answering frequently asked questions about Sri Lanka’s Muslim, Sinhalese, Tamil, and Burgher communities to dispel misconceptions and encourage empathy.",
     icon: "mdi:book-open-page-variant-outline",
   },
   {
     title: "Breakfast at Sunset",
     description:
-      "An annual interfaith iftar hosted during Ramadan to bring people from diverse backgrounds together in friendship and solidarity.",
+      "An annual large-scale interfaith iftar held during Ramadan in collaboration with SLMCS, Torrington Walkers, and Soup Kitchen Sri Lanka to strengthen interfaith harmony and community solidarity.",
     icon: "mdi:weather-sunset",
   },
 ];
@@ -90,57 +90,148 @@ const developmentProjects = [
     title: "On the Paduru",
     date: "29 August 2025",
     description:
-      "The inaugural Youth Wing event, designed to introduce members to the board, build friendships, and reinforce coexistence through games, food, and guest speakers.",
+      "The inaugural SLMCS Youth Wing event held at the MyBiz car park, designed to introduce members to the board and each other while reinforcing coexistence, unity, and community spirit through Sri Lankan-themed games, traditional food, and guest speaker sessions.",
   },
   {
     title: "Your Wealth, The Halal Way",
     date: "15 November 2025",
     description:
-      "A financial literacy workshop covering budgeting, responsible debt, halal investments, takaful, and ethical wealth-building.",
+      "A financial literacy workshop held at the CIMA Auditorium, led by Muath Mubarak of Amana Bank PLC. The session covered budgeting, responsible debt, halal investments, takaful, and career-related financial decisions in line with Islamic values.",
   },
   {
     title: "Ramadan Retreats",
     date: "Ramadan Programme",
     description:
-      "Separate boys’ and girls’ retreats focused on reflection, prayer, brotherhood, sisterhood, spiritual reset, and community-centered growth.",
+      "Separate boys’ and girls’ retreats planned exclusively for Youth Wing members during Ramadan. The girls’ retreat created space for reflection, duas, ibadah, sisterhood, iftar, taraweeh, suhoor, and Fajr, while the boys’ retreat focused on prayer, dawah, sports, reflection, suhoor, and Fajr.",
   },
 ];
 
-const mediaFundraising = [
+const mediaProjects = [
   {
     title: "Bridges of Belief Podcast",
     description:
-      "Long-form YouTube conversations answering common questions and misunderstandings about Islam, supported by short-form content for wider reach.",
+      "A long-form YouTube video series answering misunderstandings and common questions non-Muslims may have about Islam. Each question will also be turned into short-form content to make the message more shareable and relevant to youth.",
     icon: "mdi:microphone-outline",
   },
   {
-    title: "Social Media Content",
+    title: "General Social Media Content",
     description:
-      "Ongoing content built around education, fun and trending content, testimonials, and important dates in the Islamic calendar.",
+      "Ongoing content for SLMCS platforms built around four pillars: education, fun and trending content, testimonials, and important dates in the Islamic calendar.",
     icon: "mdi:instagram",
   },
+];
+
+const fundraisingProjects = [
   {
-    title: "Fundraising Stalls",
-    description: "Community fundraising efforts including support stalls for flood relief and future events.",
+    title: "On the Padhuru",
+    description:
+      "The Fundraising Team raised the necessary funds to ensure the On the Padhuru event ran smoothly without financial constraints.",
+    icon: "mdi:calendar-heart",
+  },
+  {
+    title: "Bridges of Faith Fundraising",
+    description:
+      "Funds were raised to support the smooth planning and execution of the Bridges of Faith Masjid Open Day without financial limitations.",
+    icon: "mdi:mosque-outline",
+  },
+  {
+    title: "Flood Relief Fundraising Stall",
+    description:
+      "During the Flood Relief initiative, the team organized and managed the SLMCS Youth Wing fundraising stall at the MCCF stalls, contributing towards donations for affected families.",
     icon: "mdi:storefront-outline",
   },
   {
-    title: "Merchandise & T-Shirts",
+    title: "Masjid Open Day Bake Sale",
     description:
-      "Youth Wing T-shirts, tote bags, enamel pins, and fair-based merchandise planned to build identity and support future initiatives.",
+      "A current fundraising initiative selling simple homemade bakery items to support the Masjid Open Day and engage the wider community.",
+    icon: "mdi:cupcake",
+  },
+  {
+    title: "SLMCS Youth Wing T-Shirts",
+    description:
+      "Youth Wing T-shirts are being developed to build a shared identity among members while generating profit to support ongoing and future projects.",
     icon: "mdi:tshirt-crew-outline",
+  },
+  {
+    title: "Merchandise & Fairs",
+    description:
+      "Future fundraising plans include SLMCS merchandise such as tote bags and enamel pins, with the possibility of promoting them at fairs and external events.",
+    icon: "mdi:shopping-outline",
   },
 ];
 
 const leadership = [
-  { name: "To Be Updated", role: "Youth Wing President" },
-  { name: "To Be Updated", role: "Vice President" },
-  { name: "To Be Updated", role: "Secretary" },
-  { name: "To Be Updated", role: "Treasurer" },
-  { name: "To Be Updated", role: "Community Service Lead" },
-  { name: "To Be Updated", role: "Co-existence Lead" },
-  { name: "To Be Updated", role: "Media & PR Lead" },
-  { name: "To Be Updated", role: "Fundraising Lead" },
+  {
+    name: "Asma Hussain",
+    role: "President",
+    description: "Leads the Youth Wing with overall direction, coordination, and responsibility for its mission.",
+  },
+  {
+    name: "Khaalid Dulapaandan",
+    role: "Vice President",
+    description: "Supports strategic planning, team coordination, and the smooth running of Youth Wing initiatives.",
+  },
+  {
+    name: "Thahaani Mohammed",
+    role: "Vice President",
+    description: "Assists with leadership, member engagement, and strengthening the Youth Wing’s overall impact.",
+  },
+  {
+    name: "Dahliah Rauff",
+    role: "Secretary",
+    description: "Oversees documentation, communication, records, and administrative coordination for the team.",
+  },
+  {
+    name: "Zaidh Shafraz",
+    role: "Treasurer",
+    description: "Manages financial oversight, budgeting, and accountability across Youth Wing activities.",
+  },
+  {
+    name: "Rashaad Izath",
+    role: "Assistant Treasurer",
+    description: "Supports financial tracking, fundraising coordination, and responsible resource management.",
+  },
+  {
+    name: "Zulqarnain Rizwan",
+    role: "Media & PR Co-Lead",
+    description: "Helps shape the Youth Wing’s public voice through creative content, storytelling, and outreach.",
+  },
+  {
+    name: "Fahad Fazly",
+    role: "Media & PR Co-Lead",
+    description: "Supports digital content, media planning, and public communication for Youth Wing initiatives.",
+  },
+  {
+    name: "Samiha Anzary",
+    role: "Fundraising Co-Lead",
+    description: "Leads community-driven fundraising efforts to support ongoing and future Youth Wing projects.",
+  },
+  {
+    name: "Ayyoob Faizeen",
+    role: "Fundraising Co-Lead",
+    description: "Coordinates fundraising activities that help sustain events, relief work, and community initiatives.",
+  },
+  {
+    name: "Nabeela Jabir",
+    role: "Culture & Co-existence Co-Lead",
+    description: "Supports initiatives that promote unity, dialogue, cultural understanding, and interfaith harmony.",
+  },
+  {
+    name: "Aamina Hameed",
+    role: "Culture & Co-existence Co-Lead",
+    description: "Helps lead projects that build bridges across communities through culture and coexistence.",
+  },
+  {
+    name: "Liyaanah Rauff",
+    role: "Membership Development Co-Lead",
+    description: "Supports member growth through team-building, training, mentorship, and meaningful engagement.",
+  },
+  {
+    name: "Yunus Ismail",
+    role: "Membership Development Co-Lead",
+    description:
+      "Helps strengthen member connection, development, participation, and leadership within the Youth Wing.",
+  },
 ];
 
 function YouthWing() {
@@ -166,8 +257,8 @@ function YouthWing() {
               </h1>
 
               <p className="mt-6 max-w-2xl text-base leading-8 text-white/75 md:text-lg">
-                A youth-led space for service, leadership, coexistence, creativity, and meaningful community impact
-                under the mission of Humanity Beyond Religion.
+                A youth-led platform built on service, leadership, coexistence, creativity, and meaningful community
+                impact under the mission of Humanity Beyond Religion.
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -202,9 +293,10 @@ function YouthWing() {
                 </div>
 
                 <p className="text-base leading-8 text-text/70">
-                  The Youth Wing focuses on keeping young members actively engaged and continuously developing as
-                  individuals and as part of a larger community. Through projects, training, retreats, creative media,
-                  and fundraising, members build friendships while contributing to causes that matter.
+                  The Youth Wing brings young people together to create lasting impact through community service,
+                  coexistence and culture, member development, media and public relations, and fundraising. Every avenue
+                  gives members a meaningful way to contribute while growing as individuals and as part of a united
+                  community.
                 </p>
               </div>
             </div>
@@ -223,8 +315,8 @@ function YouthWing() {
               </h2>
 
               <p className="mt-5 text-base leading-8 text-text/70">
-                Each avenue gives members a clear way to contribute — from direct service and coexistence work to media,
-                fundraising, and personal development.
+                Each avenue has its own purpose, projects, and responsibilities, allowing members to contribute without
+                overlapping or combining the work of different teams.
               </p>
             </div>
           </AnimatedContent>
@@ -285,9 +377,9 @@ function YouthWing() {
               </h2>
 
               <p className="mt-6 text-base leading-8 text-white/75">
-                Community service at the Youth Wing is about building relationships with the people and communities
-                being served. The focus is not only on financial support, but on members giving their time, skills, and
-                effort through collaborative projects.
+                Community Service at SLMCS goes beyond simply helping others. It is about building meaningful
+                relationships with the communities we serve, working through collaborations, and creating a greater and
+                more lasting impact through time, skills, effort, and service.
               </p>
             </div>
           </AnimatedContent>
@@ -330,8 +422,9 @@ function YouthWing() {
               </h2>
 
               <p className="mt-5 text-base leading-8 text-text/70">
-                Co-existence sits at the heart of the Youth Wing. These initiatives create spaces for people of
-                different backgrounds to learn, ask, share, and build trust.
+                At the heart of SLMCS is the Co-existence & Culture Avenue. Guided by the motto Humanity Beyond
+                Religion, this avenue promotes dialogue, cultural exchange, community projects, and understanding among
+                Sri Lankans of different faiths and backgrounds.
               </p>
             </div>
           </AnimatedContent>
@@ -376,8 +469,10 @@ function YouthWing() {
               </h2>
 
               <p className="mt-6 text-base leading-8 text-white/75">
-                Member Development keeps the Youth Wing active and connected. Through team-building, professional
-                growth, mentorship, and spiritual programmes, members gain real value from their time in the movement.
+                The Membership Development Avenue keeps members actively engaged and continuously developing as
+                individuals and as part of a community. Through team-building, training, mentorship, professional
+                growth, personal well-being, and shared learning, members gain real value from their time with the Youth
+                Wing.
               </p>
             </div>
           </AnimatedContent>
@@ -407,8 +502,8 @@ function YouthWing() {
           <AnimatedContent distance={50} direction="horizontal">
             <div className="overflow-hidden rounded-4xl bg-white p-3 shadow-xl shadow-text/5">
               <img
-                src="https://picsum.photos/seed/slmcs-youth-media-fundraising/1100/900"
-                alt="Youth Wing media and fundraising"
+                src="https://picsum.photos/seed/slmcs-youth-media/1100/900"
+                alt="Youth Wing media and public relations"
                 className="h-108 w-full rounded-3xl object-cover"
               />
             </div>
@@ -416,27 +511,27 @@ function YouthWing() {
 
           <AnimatedContent distance={50} direction="horizontal" reverse delay={120}>
             <div>
-              <p className="text-xs font-bold uppercase tracking-[0.28em] text-accent2">Media & Fundraising</p>
+              <p className="text-xs font-bold uppercase tracking-[0.28em] text-accent2">Media & PR</p>
 
               <h2 className="mt-4 font-instrument-serif text-4xl leading-tight text-secondary md:text-6xl">
-                Keeping the movement visible, active, and sustainable.
+                Sharing stories that educate, engage, and unite.
               </h2>
 
               <p className="mt-6 text-base leading-8 text-text/70">
-                The Media & PR and Fundraising teams support the wider mission by telling meaningful stories, engaging
-                the public, raising resources, and building a stronger Youth Wing identity.
+                The Media & PR Avenue creates content that connects with young people while uplifting the image of the
+                Sri Lanka Muslim Youth Council as a trusted voice for peace, wisdom, and unity.
               </p>
             </div>
           </AnimatedContent>
         </div>
 
-        <div className="mx-auto mt-12 grid max-w-7xl gap-5 px-4 sm:px-6 md:grid-cols-2 lg:grid-cols-4 lg:px-8">
-          {mediaFundraising.map((item, index) => (
+        <div className="mx-auto mt-12 grid max-w-7xl gap-5 px-4 sm:px-6 md:grid-cols-2 lg:px-8">
+          {mediaProjects.map((item, index) => (
             <AnimatedContent
               key={item.title}
               distance={40}
               direction={index % 2 === 0 ? "vertical" : "horizontal"}
-              reverse={index === 1 || index === 3}
+              reverse={index === 1}
               delay={index * 80}
             >
               <article className="h-full rounded-4xl bg-white p-6 shadow-xl shadow-text/5">
@@ -459,25 +554,62 @@ function YouthWing() {
       <section className="bg-secondary py-16 text-white md:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <AnimatedContent distance={50} direction="horizontal">
-            <div className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
-              <div className="max-w-3xl">
-                <p className="text-xs font-bold uppercase tracking-[0.28em] text-accent1">Youth Wing Leadership</p>
+            <div className="max-w-3xl">
+              <p className="text-xs font-bold uppercase tracking-[0.28em] text-accent1">Fundraising</p>
 
-                <h2 className="mt-4 font-instrument-serif text-4xl leading-tight md:text-6xl">
-                  A team structure prepared for youth-led service.
-                </h2>
+              <h2 className="mt-4 font-instrument-serif text-4xl leading-tight md:text-6xl">
+                Sustaining the work through community-driven support.
+              </h2>
 
-                <p className="mt-5 text-base leading-8 text-white/70">
-                  Full Youth Wing board details will be updated soon. This section is ready to present office bearers,
-                  avenue leads, and project heads clearly once names and photos are finalised.
-                </p>
-              </div>
+              <p className="mt-5 text-base leading-8 text-white/70">
+                The Fundraising Team acts as the backbone of SLMCS initiatives by mobilizing resources through creative,
+                ethical, and community-driven efforts. Its work goes beyond traditional fundraising by creating ways for
+                supporters to contribute while feeling connected to the cause.
+              </p>
+            </div>
+          </AnimatedContent>
 
-              <Link to="/contact">
-                <Button variant="primary" icon="mdi:account-plus-outline">
-                  Join the Team
-                </Button>
-              </Link>
+          <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+            {fundraisingProjects.map((item, index) => (
+              <AnimatedContent
+                key={item.title}
+                distance={40}
+                direction={index % 2 === 0 ? "horizontal" : "vertical"}
+                reverse={index % 3 === 1}
+                delay={index * 80}
+              >
+                <article className="h-full rounded-4xl border border-white/10 bg-white/10 p-6">
+                  <div
+                    className={`flex h-12 w-12 items-center justify-center rounded-2xl ${
+                      index % 2 === 0 ? "bg-accent1 text-secondary" : "bg-accent2 text-white"
+                    }`}
+                  >
+                    <Icon icon={item.icon} width="24" />
+                  </div>
+
+                  <h3 className="mt-5 font-instrument-serif text-3xl">{item.title}</h3>
+                  <p className="mt-3 text-sm leading-7 text-white/70">{item.description}</p>
+                </article>
+              </AnimatedContent>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-secondary py-16 text-white md:py-24">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <AnimatedContent distance={50} direction="horizontal">
+            <div className="max-w-3xl">
+              <p className="text-xs font-bold uppercase tracking-[0.28em] text-accent1">Youth Wing Leadership</p>
+
+              <h2 className="mt-4 font-instrument-serif text-4xl leading-tight md:text-6xl">
+                Led by young people committed to service.
+              </h2>
+
+              <p className="mt-5 text-base leading-8 text-white/70">
+                The Youth Wing board brings together office bearers and avenue leads responsible for guiding the
+                movement’s service, coexistence, media, fundraising, and member development work.
+              </p>
             </div>
           </AnimatedContent>
 
@@ -490,16 +622,23 @@ function YouthWing() {
                 reverse={index % 3 === 1}
                 delay={index * 70}
               >
-                <article className="overflow-hidden rounded-4xl bg-white p-4 text-text shadow-xl shadow-text/10">
-                  <img
-                    src={`https://picsum.photos/seed/youth-wing-leader-${index}/600/760`}
-                    alt={person.name}
-                    className="h-72 w-full rounded-3xl object-cover"
-                  />
+                <article className="h-full rounded-4xl bg-white p-6 text-center text-text shadow-xl shadow-text/10">
+                  <div className="mx-auto flex h-24 w-24 items-center justify-center overflow-hidden rounded-full bg-accent2/10 text-accent2">
+                    {/*
+                    <img
+                      src=""
+                      alt={person.name}
+                      className="h-full w-full object-cover"
+                    />
+                    */}
 
-                  <div className="p-2 pt-5">
+                    <Icon icon="mdi:account-circle-outline" width="64" />
+                  </div>
+
+                  <div className="mt-5">
                     <p className="font-instrument-serif text-2xl text-secondary">{person.name}</p>
-                    <p className="mt-2 text-xs font-bold uppercase tracking-[0.2em] text-text/50">{person.role}</p>
+                    <p className="mt-2 text-xs font-bold uppercase tracking-[0.2em] text-accent2">{person.role}</p>
+                    <p className="mt-4 text-sm leading-7 text-text/65">{person.description}</p>
                   </div>
                 </article>
               </AnimatedContent>
